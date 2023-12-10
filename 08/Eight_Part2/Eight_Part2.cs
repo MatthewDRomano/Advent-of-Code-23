@@ -13,7 +13,7 @@ namespace Eight_Part2
         "RLRLRRLRRLRLRLRRRLRLRLRRLRLRRLRRRR").ToCharArray();
         static void Main(string[] args)
         {
-            StreamReader reader = new StreamReader("I:\\Aoc\\08\\Eight\\bin\\Debug\\net5.0\\Input.txt");
+            StreamReader reader = new StreamReader("I:\\Advent of Code 23\\08\\Eight\\bin\\Debug\\net5.0\\Input.txt");
             List<String> currentNodes = new List<String>();
 
             while (!reader.EndOfStream) {
